@@ -11,6 +11,6 @@ from pathlib import Path
 import hashlib
 artifacts = sorted(Path('dist').glob('FastAF-Flow-1.0.0-macos-arm64.*'))
 Path('dist/SHA256SUMS').write_text(''.join(
-    f'{hashlib.file_digest(p.open("rb"), "sha256").hexdigest()}  {p.name}\n' for p in artifacts
+    f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.name}\n' for p in artifacts
 ))
 PY

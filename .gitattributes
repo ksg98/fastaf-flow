@@ -1,0 +1,3 @@
+# Preserve verbatim whitespace in upstream license notices.
+assets/license-notices/*.txt -whitespace
+docs/licenses/* -whitespace
