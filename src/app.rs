@@ -97,7 +97,7 @@ impl FlowApp {
         visuals.window_fill = Color32::WHITE;
         visuals.override_text_color = Some(INK);
         visuals.selection.bg_fill = Color32::from_rgb(219, 228, 255);
-        visuals.selection.stroke = egui::Stroke::new(1.0, BLUE);
+        visuals.selection.stroke = egui::Stroke::new(1.0_f32, BLUE);
         cc.egui_ctx.set_visuals(visuals);
         cc.egui_ctx.style_mut(|style| {
             style.spacing.item_spacing = Vec2::new(10.0, 12.0);
@@ -599,7 +599,7 @@ impl FlowApp {
         });
         let height = (ui.available_height() - 58.0).max(150.0);
         egui::Frame::new().fill(Color32::WHITE).corner_radius(10).inner_margin(18)
-            .stroke(egui::Stroke::new(1.0, Color32::from_rgb(219, 225, 235)))
+            .stroke(egui::Stroke::new(1.0_f32, Color32::from_rgb(219, 225, 235)))
             .show(ui, |ui| {
                 egui::ScrollArea::vertical().max_height(height).min_scrolled_height(height).show(ui, |ui| {
                     ui.add_enabled(self.job.is_none(), egui::TextEdit::multiline(&mut self.text)
