@@ -25,6 +25,12 @@ CONTEXT = ("general", "email")
 _CACHE: dict = {}
 _OUTPUT = sys.stdout
 ONLINE = "--online" in sys.argv
+# MLX Audio loads these original safetensors checkpoints directly. They are
+# published without MLX tags, so Hub tag searches cannot discover them.
+UNTAGGED_SPEECH_MODELS = (
+    {"id": "moonshine-ai/moonshine-tiny", "kind": "speech", "quant": "FP32", "bytes": 108389192},
+    {"id": "moonshine-ai/moonshine-base", "kind": "speech", "quant": "FP32", "bytes": 246079928},
+)
 
 
 def emit(value):
@@ -235,7 +241,7 @@ def catalog(_req):
         raise ValueError("Catalog refresh requires an explicit online worker.")
     from huggingface_hub import HfApi
     api = HfApi()
-    models = {}
+    models = {model["id"]: dict(model) for model in UNTAGGED_SPEECH_MODELS}
     # Full iterators follow pagination. Also query the mlx-audio tag: some new
     # repositories have no pipeline_tag and would otherwise be invisible.
     for args in [dict(author="mlx-community", pipeline_tag="automatic-speech-recognition"),

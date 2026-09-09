@@ -6,7 +6,9 @@ Start with **Qwen3-ASR 0.6B 4-bit** and **S1-mini by Superwhisper 4-bit**. This 
 
 The Dictate dropdowns show local models. Use Models to browse downloads, or Add folder to scan a model directory or a parent directory. Rescan local picks up changes made by other applications. There is no model deletion command in v1, so shared caches are never removed by the app.
 
-Supported identification includes Whisper, Parakeet, Qwen3-ASR, Voxtral, SenseVoice, VibeVoice ASR, and other MLX Audio ASR configurations. Actual runtime support depends on MLX Audio 0.5.3 and the checkpoint's configuration, tokenizer, and auxiliary files. Unsupported checkpoints produce an error without replacing the transcript. A model's appearance in the library is not a compatibility certification.
+Supported identification includes Whisper, Parakeet, Qwen3-ASR, Moonshine, Voxtral, SenseVoice, VibeVoice ASR, and other MLX Audio ASR configurations. Actual runtime support depends on MLX Audio 0.5.3 and the checkpoint's configuration, tokenizer, and auxiliary files. Unsupported checkpoints produce an error without replacing the transcript. A model's appearance in the library is not a compatibility certification.
+
+Moonshine Tiny and Base are listed under **Models** as `moonshine-ai/moonshine-tiny` and `moonshine-ai/moonshine-base`. MLX Audio loads these original FP32 safetensors checkpoints directly; they do not need an MLX conversion or MLX tag. Their weights are approximately 108 MB and 246 MB, respectively. These two checkpoints support English. The separate Moonshine streaming architecture is not supported by the pinned MLX Audio runtime. Sources: [MLX Audio's Moonshine implementation](https://github.com/Blaizzy/mlx-audio/tree/main/mlx_audio/stt/models/moonshine), [Tiny](https://huggingface.co/moonshine-ai/moonshine-tiny), [Base](https://huggingface.co/moonshine-ai/moonshine-base).
 
 Model cache scans inspect configs and check weight-file and shard availability. They do not hash multi-GB weights on each launch. Corrupted files can still fail when loaded; repair their download using the original model tooling.
 

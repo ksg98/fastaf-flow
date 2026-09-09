@@ -5,6 +5,8 @@ from pathlib import Path
 import subprocess
 import sys
 import unittest
+from types import SimpleNamespace
+from unittest.mock import patch
 
 ENGINE = Path(__file__).resolve().parents[1] / "worker" / "engine.py"
 spec = importlib.util.spec_from_file_location("engine", ENGINE)
@@ -18,6 +20,24 @@ class CharacterTokenizer:
 
 
 class ContractTests(unittest.TestCase):
+    def test_catalog_keeps_untagged_official_moonshine_models(self):
+        # Both official checkpoints lack MLX tags. A tag-only Hub response must
+        # not make them disappear when the user refreshes the model library.
+        api = SimpleNamespace(list_models=lambda **_: iter([
+            SimpleNamespace(id="mlx-community/test-asr", tags=["mlx", "stt"]),
+        ]))
+        hub = SimpleNamespace(HfApi=lambda: api)
+        with patch.dict(sys.modules, {"huggingface_hub": hub}), patch.object(engine, "ONLINE", True):
+            models = {m["id"]: m for m in engine.catalog({})["models"]}
+        bundled = {m["id"]: m for m in json.loads((ENGINE.parent.parent / "assets/catalog.json").read_text())}
+        for name in ("tiny", "base"):
+            ident = f"moonshine-ai/moonshine-{name}"
+            self.assertEqual(models[ident]["kind"], "speech")
+            self.assertEqual(models[ident]["quant"], "FP32")
+            self.assertGreater(models[ident]["bytes"], 100_000_000)
+            self.assertEqual(models[ident], bundled[ident])
+        self.assertIn("mlx-community/test-asr", models)
+
     def test_s1_trained_control_axes(self):
         for style in engine.STYLING:
             for structure in engine.STRUCTURE:

@@ -852,6 +852,18 @@
     "kind": "speech"
   },
   {
+    "id": "moonshine-ai/moonshine-base",
+    "kind": "speech",
+    "quant": "FP32",
+    "bytes": 246079928
+  },
+  {
+    "id": "moonshine-ai/moonshine-tiny",
+    "kind": "speech",
+    "quant": "FP32",
+    "bytes": 108389192
+  },
+  {
     "id": "mouddane/granite-speech-4.1-2b-nar-mlx",
     "kind": "speech"
   },

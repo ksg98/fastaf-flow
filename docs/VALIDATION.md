@@ -1,5 +1,7 @@
 # v1.0.0 validation
 
+Post-release Moonshine catalog fix (September 9, 2026): downloaded the official Tiny and Base FP32 checkpoints through the app's online worker and transcribed the same synthetic WAV through the offline worker. Both retained all words, including the Friday-to-Thursday correction. The existing v1.0.0 packaged scanner recognizes both as downloaded speech models. All four Rust tests and six Python tests passed; the additional Python test checks that untagged Moonshine entries survive catalog refresh. The source catalog now contains 238 entries; published v1.0.0 artifacts remain unchanged.
+
 Validated on an Apple M3 Max with 64 GB unified memory, macOS 26.6.2, Rust 1.96.0, and Python 3.12.13 on September 9, 2026.
 
 ## Automated checks

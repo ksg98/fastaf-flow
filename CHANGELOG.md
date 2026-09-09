@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Include official Moonshine Tiny and Base checkpoints in the bundled and refreshed model catalog even though their Hugging Face metadata has no MLX tag.
+- Verify both checkpoints with offline MLX Audio transcription on Apple Silicon.
+
 ## 1.0.0 — 2026-09-09
 
 - Native Rust dictation app for Apple Silicon, with a menu-bar control and global ⌘⇧Space shortcut.
