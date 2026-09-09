@@ -1,0 +1,38 @@
+[package]
+name = "fastaf-flow"
+version = "1.0.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Local dictation for Apple Silicon. Rust, MLX Audio, and S1-mini by Superwhisper."
+license = "MIT"
+repository = "https://github.com/ksg98/fastaf-flow"
+
+[dependencies]
+anyhow = "1"
+eframe = { version = "0.33", default-features = false, features = ["glow", "default_fonts", "accesskit", "x11", "wayland"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+directories = "6"
+walkdir = "2"
+cpal = "0.16"
+hound = "3.5"
+tempfile = "3"
+sysinfo = "0.37"
+image = { version = "0.25", default-features = false, features = ["png"], optional = true }
+rfd = { version = "0.15", default-features = false, features = ["xdg-portal", "async-std"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+global-hotkey = "0.8"
+tray-icon = { version = "0.21", default-features = false }
+objc2-app-kit = { version = "0.3", default-features = false, features = ["std", "libc", "NSWorkspace", "NSRunningApplication"] }
+
+[features]
+screenshot = ["dep:image"]
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true
+
+[profile.dev]
+debug = 1

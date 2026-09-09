@@ -1,0 +1,946 @@
+[
+  {
+    "id": "Alkd/TEA-ASR-1.1-MLX-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "AutomatosX/AX-Qwen3-ASR-1.7B-MLX-AXQ-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "AutomatosX/AX-Qwen3-ASR-1.7B-MLX-AXQ-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "CogniSoftOrg/canary-1b-v2-mlx-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "FakeRockert543/Qwen3-ASR-0.6B-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "FakeRockert543/Qwen3-ASR-1.7B-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "KIEFERSA/Sophea-Canary-ASR-mlx",
+    "kind": "speech"
+  },
+  {
+    "id": "MarkChen1214/Qwen3-ASR-1.7B-MLX-Mixed-4bit6bit8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "MarkChen1214/nemotron-3.5-asr-streaming-0.6b-MLX-Mixed-6bit8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "Promptengineering/nemotron-3.5-asr-streaming-0.6b-mlx",
+    "kind": "speech"
+  },
+  {
+    "id": "RayyTien/Breeze-ASR-26-mlx-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "T0mSIlver/Voxtral-Mini-4B-Realtime-2602-4bit-qhead",
+    "kind": "speech"
+  },
+  {
+    "id": "aufklarer/Qwen3-ASR-0.6B-MLX-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "busyfarm/Qwen3-ASR-0.6B-MLX-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "divydeep/granite-speech-4.1-2b-mlx-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "divydeep/granite-speech-4.1-2b-mlx-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "divydeep/granite-speech-4.1-2b-mlx-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "divydeep/granite-speech-4.1-2b-mlx-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "emee-ai/Qwen3-ASR-1.7B-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "gcoli/whisper-large-v3-swiss-german-mlx-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "gcoli/whisper-large-v3-swiss-german-mlx-q4",
+    "kind": "speech"
+  },
+  {
+    "id": "gcoli/whisper-large-v3-swiss-german-mlx-q8",
+    "kind": "speech"
+  },
+  {
+    "id": "iris-sfg/Voxtral-Mini-4B-Realtime-2602-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "iris-sfg/Voxtral-Mini-4B-Realtime-2602-4bit-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "jempf/29ef1ff23d4645f6",
+    "kind": "speech"
+  },
+  {
+    "id": "jempf/3cd5f9019fee4af8",
+    "kind": "speech"
+  },
+  {
+    "id": "jempf/554a0b4dc84e4b06",
+    "kind": "speech"
+  },
+  {
+    "id": "jempf/b52ad01050834974",
+    "kind": "speech"
+  },
+  {
+    "id": "kamilobad/GLM-ASR-Nano-2512-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "kamilobad/GLM-ASR-Nano-2512-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "kamilobad/Qwen3-ASR-1.7B-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "knoveleng/polyglot-lion-1.7b-v1.5-mlx-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "knoveleng/polyglot-lion-1.7b-v1.5-mlx-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "knoveleng/polyglot-lion-1.7b-v1.5-mlx-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "kuotient/MOSS-Transcribe-Diarize-MLX-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Fun-ASR-MLT-Nano-2512-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Fun-ASR-MLT-Nano-2512-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Fun-ASR-MLT-Nano-2512-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Fun-ASR-Nano-2512-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Fun-ASR-Nano-2512-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Fun-ASR-Nano-2512-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/GLM-ASR-Nano-2512-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/GLM-ASR-Nano-2512-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/GLM-ASR-Nano-2512-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/GLM-ASR-Nano-2512-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Mega-ASR-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Mega-ASR-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Mega-ASR-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/MiMo-V2.5-ASR-MLX",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/MiMo-V2.5-ASR-MLX-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/MiMo-V2.5-ASR-MLX-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/MiMo-V2.5-ASR-MLX-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/MiMo-V2.5-ASR-MLX-fp32",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ASR-0.6B-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ASR-0.6B-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ASR-0.6B-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ASR-0.6B-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ASR-0.6B-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ASR-1.7B-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ASR-1.7B-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ASR-1.7B-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ASR-1.7B-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ASR-1.7B-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ForcedAligner-0.6B-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ForcedAligner-0.6B-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ForcedAligner-0.6B-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ForcedAligner-0.6B-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Qwen3-ForcedAligner-0.6B-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/S1-mini-MLX-4bit",
+    "kind": "rewrite"
+  },
+  {
+    "id": "mlx-community/S1-mini-MLX-8bit",
+    "kind": "rewrite"
+  },
+  {
+    "id": "mlx-community/S1-mini-MLX-bf16",
+    "kind": "rewrite"
+  },
+  {
+    "id": "mlx-community/SenseVoiceSmall",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/VibeVoice-ASR-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/VibeVoice-ASR-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/VibeVoice-ASR-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/VibeVoice-ASR-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/VibeVoice-ASR-Streaming-7B-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/VibeVoice-ASR-Streaming-7B-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/VibeVoice-ASR-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Voxtral-Mini-3B-2507-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Voxtral-Mini-4B-Realtime-2602-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Voxtral-Mini-4B-Realtime-2602-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/Voxtral-Mini-4B-Realtime-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/belle-distil-whisper-large-v2-zh-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/belle-distil-whisper-large-v2-zh-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/belle-whisper-large-v2-zh-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/belle-whisper-large-v2-zh-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/belle-whisper-large-v3-turbo-zh-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/belle-whisper-large-v3-turbo-zh-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/belle-whisper-large-v3-zh-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/belle-whisper-large-v3-zh-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/belle-whisper-large-v3-zh-punct-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/belle-whisper-large-v3-zh-punct-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/cohere-transcribe-03-2026-mlx-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/granite-4.0-1b-speech-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/granite-4.0-1b-speech-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/granite-4.0-1b-speech-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/granite-4.0-1b-speech-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/granite-4.0-1b-speech-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/granite-4.0-1b-speech-mxfp4",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/granite-speech-4.1-2b-nar-mlx",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/granite-speech-4.1-2b-nar-mlx-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/nemotron-3.5-asr-streaming-0.6b",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/nemotron-3.5-asr-streaming-0.6b-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/parakeet-ctc-0.6b",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/parakeet-ctc-1.1b",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/parakeet-rnnt-0.6b",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/parakeet-rnnt-1.1b",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/parakeet-tdt-0.6b-v2",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/parakeet-tdt-0.6b-v3",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/parakeet-tdt-1.1b",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/parakeet-tdt_ctc-0.6b-ja",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/parakeet-tdt_ctc-1.1b",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/parakeet-tdt_ctc-110m",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base-asr-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base-asr-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base-asr-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base-asr-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base-asr-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base-khmer-mlx-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base-khmer-mlx-fp32",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base-mlx",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base.en-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base.en-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base.en-asr-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base.en-asr-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base.en-asr-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base.en-asr-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base.en-asr-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-base.en-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-asr-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-asr-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-asr-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-asr-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-asr-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v2-asr-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v2-asr-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v2-asr-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v2-asr-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v2-asr-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-asr-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-asr-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-asr-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-mlx",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-turbo",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-turbo-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-turbo-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-turbo-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-turbo-german-f16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-turbo-german-f16-q4",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-large-v3-turbo-q4",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium-asr-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium-asr-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium-asr-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium-asr-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium-asr-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium-malayalam-mlx",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium-mlx",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium.en-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium.en-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium.en-asr-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium.en-asr-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium.en-asr-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium.en-asr-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium.en-asr-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-medium.en-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small-asr-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small-asr-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small-asr-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small-asr-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small-asr-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small-khmer-mlx-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small-khmer-mlx-fp32",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small-mlx",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small.en-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small.en-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small.en-asr-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small.en-asr-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small.en-asr-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small.en-asr-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small.en-asr-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-small.en-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny-asr-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny-asr-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny-asr-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny-asr-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny-asr-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny-khmer-mlx-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny-khmer-mlx-fp32",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny.en-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny.en-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny.en-asr-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny.en-asr-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny.en-asr-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny.en-asr-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny.en-asr-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mlx-community/whisper-tiny.en-fp16",
+    "kind": "speech"
+  },
+  {
+    "id": "mouddane/granite-speech-4.1-2b-nar-mlx",
+    "kind": "speech"
+  },
+  {
+    "id": "mouddane/granite-speech-4.1-2b-nar-mlx-5bit",
+    "kind": "speech"
+  },
+  {
+    "id": "ph0ryn/Qwen3-ASR-1.7B-JA-MLX-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "ph0ryn/Qwen3-ASR-1.7B-JA-MLX-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "runfuture/Mega-ASR-MLX-FP16",
+    "kind": "speech"
+  },
+  {
+    "id": "runfuture/Mega-ASR-MLX-Q4",
+    "kind": "speech"
+  },
+  {
+    "id": "shreyask/voxtral-mini-4b-realtime-mlx-mixed-4-6",
+    "kind": "speech"
+  },
+  {
+    "id": "smdesai/Qwen3-ASR-0.6B-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "smdesai/Qwen3-ASR-0.6B-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "spokedotso/nemotron-3.5-asr-streaming-0.6b-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "theoracleguy/nemotron-3.5-asr-streaming-0.6b",
+    "kind": "speech"
+  },
+  {
+    "id": "thucdangvan020999/polyglot-lion-0.6b-3bit",
+    "kind": "speech"
+  },
+  {
+    "id": "thucdangvan020999/polyglot-lion-0.6b-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "thucdangvan020999/polyglot-lion-0.6b-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "thucdangvan020999/polyglot-lion-0.6b-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "thucdangvan020999/polyglot-lion-0.6b-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "thucdangvan020999/polyglot-lion-1.7b-3bit",
+    "kind": "speech"
+  },
+  {
+    "id": "thucdangvan020999/polyglot-lion-1.7b-4bit",
+    "kind": "speech"
+  },
+  {
+    "id": "thucdangvan020999/polyglot-lion-1.7b-6bit",
+    "kind": "speech"
+  },
+  {
+    "id": "thucdangvan020999/polyglot-lion-1.7b-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "thucdangvan020999/polyglot-lion-1.7b-bf16",
+    "kind": "speech"
+  },
+  {
+    "id": "ultragtx/Qwen3-ASR-1.7B-JA-8bit",
+    "kind": "speech"
+  },
+  {
+    "id": "vanch007/SenseVoiceSmall-4bit",
+    "kind": "speech"
+  }
+]
